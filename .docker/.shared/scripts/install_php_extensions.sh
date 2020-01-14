@@ -11,8 +11,8 @@ wget -q -O /usr/local/bin/install-php-extensions https://raw.githubusercontent.c
 # install extensions
 chmod uga+x /usr/local/bin/install-php-extensions && sync && install-php-extensions \
     pdo_firebird \
-    GD \
-    ZIP \
+    gd \
+    zip \
     opcache \
     xdebug \
 ;
