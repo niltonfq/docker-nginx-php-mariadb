@@ -1,0 +1,16 @@
+.idea
+.env
+.docker/mariadb/data
+
+/vendor/
+node_modules/
+npm-debug.log
+yarn-error.log
+
+public_html/storage
+
+storage/*.key
+Homestead.yaml
+Homestead.json
+/.vagrant
+.phpunit.result.cache
